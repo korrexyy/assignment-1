@@ -16,13 +16,13 @@ nav {
 .logo {
   color: #1d2330;
   font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .navlinks {
   display: flex;
   gap: 20px;
   font-size: 1.5rem;
-  text-decoration: none;
 }
 
 .navlinks a {
@@ -32,7 +32,7 @@ nav {
 
 .container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin:  auto;
   padding: 20px 40px;
 }
 .herosection {
@@ -79,7 +79,6 @@ nav {
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
-  text-decoration: none;
 }
 
 .button.secondary {
@@ -169,7 +168,7 @@ img {
   gap: 20px;
 }
 .project-card {
-  background: #ffffff;
+  background: white;
   border-radius: 22px;
   padding: 22px;
 }
@@ -184,11 +183,15 @@ img {
   color: #4d5568;
   line-height: 1.7;
 }
+footer{
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 760px) {
   .herosection {
     flex-direction: column;
-    text-align: left;
+
   }
 
   .hero-actions {
